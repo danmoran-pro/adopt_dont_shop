@@ -19,7 +19,3 @@ RSpec.describe "shelters index page", type: :feature do
     expect(page).to have_content("Dumb")
   end
 end
-
-# As a visitor
-# When I visit '/shelters'
-# Then I see the name of each shelter in the system

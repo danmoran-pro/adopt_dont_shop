@@ -5,5 +5,4 @@ class Shelter < ApplicationRecord
                        :city,
                        :state,
                        :zip
-
-
+end 

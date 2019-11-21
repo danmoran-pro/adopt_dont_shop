@@ -5,3 +5,4 @@ class Shelter < ApplicationRecord
                           :state,
                           :zip
 end
+

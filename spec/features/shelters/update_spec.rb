@@ -8,7 +8,7 @@ RSpec.describe "shelter update page", type: :feature do
                               state:      "CO",
                               zip:        "80224")
   end
-
+ 
   describe 'As a visitor' do
     describe 'When I visit a shelter show page' do
       it 'I can update a shelter' do

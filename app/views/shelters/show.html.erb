@@ -9,3 +9,5 @@ state: <%= @shelter.state %>
 zip: <%=  @shelter.zip %>
 <br>
 <%= link_to 'Edit Shelter', "/shelters/#{@shelter.id}/edit" %>
+<br>
+<%= link_to 'Delete Shelter', "/shelters/#{@shelter.id}", method: :delete %>

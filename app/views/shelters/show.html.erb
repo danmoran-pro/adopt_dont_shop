@@ -1,9 +1,11 @@
-name = <%= @shelter.name %>
+name: <%= @shelter.name %>
 <br>
-address = <%= @shelter.address %>
+address: <%= @shelter.address %>
 <br>
-city = <%= @shelter.city %>
+city: <%= @shelter.city %>
 <br>
-state = <%= @shelter.state %>
+state: <%= @shelter.state %>
 <br>
-zip = <%=  @shelter.zip %>
+zip: <%=  @shelter.zip %>
+<br>
+<%= link_to 'Edit Shelter', "/shelters/#{@shelter.id}/edit" %>

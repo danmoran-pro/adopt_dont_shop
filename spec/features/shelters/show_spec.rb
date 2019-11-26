@@ -16,7 +16,7 @@ RSpec.describe "shelter show page", type: :feature do
 
     visit "/shelters/#{shelter_1.id}"
 
-    expect(page).to have_content("name = DFL")
+    expect(page).to have_content("DFL")
     expect(page).to have_content("123 west st.")
     expect(page).to have_content("Denver")
     expect(page).to have_content("CO")

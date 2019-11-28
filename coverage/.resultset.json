@@ -190,6 +190,7 @@
         1,
         1,
         null,
+        null,
         1,
         null,
         null
@@ -414,6 +415,15 @@
         1,
         1,
         null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/daniels/turing/mod2/projects/adopt_dont_shop/app/controllers/application_controller.rb": [
@@ -466,6 +476,6 @@
         null
       ]
     },
-    "timestamp": 1574882389
+    "timestamp": 1574911801
   }
 }
